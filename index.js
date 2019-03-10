@@ -8,7 +8,7 @@ require('./services/passport');
 
 mongoose.connect(keys.mongoURI)
 	.then(() => console.log('MongoDB Connected'))
-  	.catch(err => console.log(err));
+  	.catch(err => console.log("Test here",err));
 
 const app = express();
 
