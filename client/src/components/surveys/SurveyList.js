@@ -7,16 +7,16 @@ class SurveyList extends Component {
     this.props.fetchSurveys();
   }
   renderSurveys() {
-    return this.props.surveys;
-    //    return this.props.surveys.map(survey => {
-    //      return (
-    //        <div className="card darken-1" key={survey._id}>
-    //          <div className="card-content">
-    //            <span className="card-title" />
-    //          </div>
-    //        </div>
-    //      );
-    //    });
+    // return this.props.surveys.map(survey => {
+    //   return (
+    //     <div className="card darken-1" key={survey._id}>
+    //       <div className="card-content">
+    //         <span className="card-title" />
+    //       </div>
+    //     </div>
+    //   );
+    // });
+    return <div>asdasdad{this.props.surveys}</div>;
   }
 
   render() {
